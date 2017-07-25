@@ -36,7 +36,7 @@ class App extends Component {
             </li>
             <li>
               <code>REACT_APP_LESS=true</code>
-              <span>- Enable LESS</span>
+              <span>- Enable LESS and do sthing herrre </span>
             </li>
             <li>
               <code>REACT_APP_STYLUS=true</code>

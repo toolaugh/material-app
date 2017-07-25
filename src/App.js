@@ -47,44 +47,6 @@ class App extends Component {
               <span>- Enable CSS modules </span>
             </li>
           </ul>
-
-          <b> ⚠️ Babel </b>
-
-          <div className={styles.warning}>
-            (Please note that these features are highly experimental (especially stage-0) and still not a part of the ES
-            specification. <br/>
-            Use them at
-            your own risk of breaking backwards compatibility if they don't make the final version of the spec.)
-          </div>
-
-          <ul className="configs babel-configs">
-            <li>
-              <code>REACT_APP_BABEL_STAGE_0=true</code>
-              <span>- Enable stage-0 preset</span>
-            </li>
-            <li>
-              <code>REACT_APP_DECORATORS=true</code>
-              <span>- Enable usage of decorators</span>
-            </li>
-          </ul>
-
-          <b> Others </b>
-          <ul className="configs style-configs">
-            <li>
-              <code>PORT=3015</code>
-              <span>- change default port (supported in CRA by default)</span>
-            </li>
-            <li>
-              <code>OPEN_BROWSER=false</code>
-              <span>- don't open browser after running webpack server</span>
-            </li>
-          </ul>
-
-          <br/>
-          <br/>
-          <a target="_blank" className={styles.readmeLink} href="https://github.com/kitze/create-react-app/tree/master/packages/react-scripts">
-            Link to full README.md
-          </a>
         </div>
       </div>
     )
